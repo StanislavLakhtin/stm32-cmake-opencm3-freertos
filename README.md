@@ -14,7 +14,7 @@ Define project name in line `project(BBB)` (./CMakeLists.txt),
 
 Don't forget change {PROJECTDIR}. 
 
-## From Scratch
+## From scratch
 
 ```
 git submodule update --init --recursive
@@ -23,7 +23,7 @@ cmake -DCMAKE_BUILD_TYPE= -DCMAKE_MAKE_PROGRAM=make -DCMAKE_C_COMPILER=arm-none-
 
 ```
 
-## Get ready OpenCM3
+## Get ready with OpenCM3
 
 ```
 cmake --build {PROJECTDIR}/build/.generated --target libopencm3 -- -j 2
